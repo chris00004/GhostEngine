@@ -4,7 +4,7 @@
 //init defaults and unordered map
 Debugger::Debugger( Input& input, PakData& pakData, GameData& gameData, const float& dt, const float& fps, 
                     InputManager& inputMgr ) 
-                                                            : isActive (false),
+                                                            : isActive ( false ),
                                                             debugState( DebugState::ENUM_START ),
                                                             input ( input ),
                                                             pakData ( pakData ),
@@ -19,9 +19,7 @@ Debugger::Debugger( Input& input, PakData& pakData, GameData& gameData, const fl
 }
 
 
-
-
-// INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT
+// INIT
 
 void Debugger::init(){
 
@@ -72,8 +70,8 @@ void Debugger::init(){
 
     //SF Font & Text -> load, color fill, scale
     sf::Font* tempFontPtr = findMapObject( selectedPak -> fonts, "test.otf" );
-    if (tempFontPtr)
-    {
+    if (tempFontPtr) {
+
         bodyText.emplace( *tempFontPtr, "...");
         fpsText.emplace( *tempFontPtr, "...");
         debugMenuText.emplace( *tempFontPtr, "...");
@@ -95,22 +93,34 @@ void Debugger::init(){
         popUpText -> setPosition( { 450.0f, 40.0f } );
         popUpText -> setScale( { 0.2f, 0.2f } );
     }
-    else std::cout << "tempFontPtr is Null" << "\n";
+    else {
+        
+        std::cout << "tempFontPtr is Null" << "\n";
+    }
 
     //safely get initial sound buffer
     sf::SoundBuffer* tempSoundPtr = findMapObject( selectedPak -> sounds, "test.wav" ); // soundsNames[ vecIndex ]
-    if ( tempSoundPtr ) debugSound.emplace( *tempSoundPtr );
-    else std::cout << "tempSountPtr is Null" << "\n";
+    if ( tempSoundPtr ) {
+        
+        debugSound.emplace( *tempSoundPtr );
+    }
+    else {
+        
+        std::cout << "tempSountPtr is Null" << "\n";
+    }
 
     //safely get initial texture
     sf::Texture* tempTexturePtr = findMapObject ( selectedPak -> textures, "test.png" );
-    if ( tempTexturePtr )
-    {
+    if ( tempTexturePtr ) {
+
         debugSprite.emplace( *tempTexturePtr );
         debugSprite -> setPosition ( { 160.0f, 70.0f} );
         textureSize = sf::Vector2i( tempTexturePtr -> getSize() );
     }
-    else std::cout << "tempTexturePtr is Null" << "\n";
+    else {
+
+        std::cout << "tempTexturePtr is Null" << "\n";
+    }
 
     //keybind string
     keyBindString = "[ Enable/Disable ] \\    [ Accpet ] R-Shift    [ Next / Prev ] Arrows: Left / Right     [ Traverse Menu ] Arrows: Up / Down";
@@ -124,17 +134,8 @@ void Debugger::init(){
     std::cout << "\nDebugMgr Initialized." << std::flush;
 }
 
-// INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT --- INIT
 
-
-
-
-
-
-
-
-
-// UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE
+// UPDATE
 
 void Debugger::update(){
     
@@ -142,20 +143,35 @@ void Debugger::update(){
     updateDebugInputState( inputActivate, sf::Keyboard::isKeyPressed( sf::Keyboard::Key::Backslash ) );
 
     // Enable/disable debugger
-    if ( inputActivate.pressed ) isActive = !isActive;
+    if ( inputActivate.pressed ) {
+        
+        isActive = !isActive;
+    }
 
     // SAFETY GUARD: IS DEBUGGER ACTIVE
-    if ( !isActive ) return;
+    if ( !isActive ) {
+        
+        return;
+    }
 
     // Update Debugger Inputs
     updateDebugInput();
 
     //update debugState forward if next state + 1 isnt end enum
-    if ( inputNextState.pressed ) setState ( ( DebugState )( enumToInt( debugState ) + 1 ) );
-    else if ( inputPrevState.pressed ) setState ( ( DebugState )( enumToInt( debugState ) - 1 ) );
+    if ( inputNextState.pressed ) { 
+        
+        setState ( ( DebugState )( enumToInt( debugState ) + 1 ) ); 
+    }
+
+    else if ( inputPrevState.pressed ) { 
+        setState ( ( DebugState )( enumToInt( debugState ) - 1 ) ); 
+    }
 
     // SAFETY GUARD: IS PAK LOADED
-    if ( !isPakLoaded ) return;
+    if ( !isPakLoaded ) { 
+
+        return; 
+    }
 
     // Check for pak just swapped to display popup
     if ( isPakSwapped ) {
@@ -169,7 +185,10 @@ void Debugger::update(){
 
     switch(debugState) {
         
-        case DebugState::ENUM_START: { setState( ( DebugState ) ( enumToInt( DebugState::ENUM_END ) - 1 ) );  break; }
+        case DebugState::ENUM_START: { 
+            
+            setState( ( DebugState ) ( enumToInt( DebugState::ENUM_END ) - 1 ) );  
+        break; }
         
         case DebugState::INPUT_TEST: {
 
@@ -189,24 +208,26 @@ void Debugger::update(){
         case DebugState::SOUND_TEST: {
 
             // SAFETY GUARD: IS VECTOR NOT EMPTY
-            if ( soundsNames.empty() ) break;
+            if ( soundsNames.empty() ) { break; }
             
             allowVectorControls( soundsNames.size() - 1 );
 
             sf::SoundBuffer* tempSoundPtr = findMapObject ( selectedPak -> sounds, soundsNames [ vecIndex ] );
 
-            if (tempSoundPtr)
-            {
-                if ( inputDown.pressed || inputUp.pressed || isStateChanged ) 
-                {
+            if (tempSoundPtr) {
+
+                if ( inputDown.pressed || inputUp.pressed || isStateChanged ) {
+
                     debugSound -> setBuffer ( *tempSoundPtr );  
 
                     //rebuild sound string on new sound selected
                     buildString ();
                 } 
-                else if ( inputAccept.pressed ) debugSound -> play();
+                else if ( inputAccept.pressed ) {
+                    
+                    debugSound -> play();
+                }
             }
-            
         break; }
 
         case DebugState::GAMEDATA_VIEW: { break; }
@@ -236,7 +257,6 @@ void Debugger::update(){
                     buildString ();
                 }
             }                        
-            
         break; }
 
         case DebugState::STAGEDATA_VIEW: {
@@ -252,7 +272,6 @@ void Debugger::update(){
                 //rebuild stage data string on new stage selected
                 buildString ();
             }
-            
         break; }
 
         case DebugState::DIALOGUES_VIEW: {
@@ -264,11 +283,11 @@ void Debugger::update(){
             allowVectorControls( dialoguesNames.size() - 1 );
 
             //get current dialogue entry
-            if ( inputDown.pressed || inputUp.pressed || isStateChanged )
-            {
+            if ( inputDown.pressed || inputUp.pressed || isStateChanged ) {
+
                 std::vector< std::string >* tempStringVecPtr = findMapObject ( selectedPak -> dialogues, dialoguesNames [ vecIndex ] );
-                if (tempStringVecPtr)
-                {
+                if (tempStringVecPtr) {
+
                     dialogueEntry = *tempStringVecPtr;
 
                     //rebuild dialogue string on new dialogue selected
@@ -278,16 +297,22 @@ void Debugger::update(){
             
         break; }
 
-        case DebugState::ENUM_END: { setState( ( DebugState ) ( enumToInt( DebugState::ENUM_START ) + 1 ) ); break; }
+        case DebugState::ENUM_END: { 
+            
+            setState( ( DebugState ) ( enumToInt( DebugState::ENUM_START ) + 1 ) ); 
+        break; }
     }
 
     fpsText -> setString ( std::to_string( fps ) );
 
-    if ( isStateChanged ) isStateChanged = false;
+    if ( isStateChanged ) {
+        
+        isStateChanged = false;
+    }
 
     //switch selected pak struct, after state changes check so string rebuild triggers
-    if ( sf::Keyboard::isKeyPressed( sf::Keyboard::Key::P ) )
-    {
+    if ( sf::Keyboard::isKeyPressed( sf::Keyboard::Key::P ) ) {
+
         if ( inputNum1.pressed ) { 
 
             selectPakStruct( pakData.global );
@@ -312,23 +337,11 @@ void Debugger::update(){
             popUpText -> setString( "NOTICE -> Loaded Pak : STAGE CURRENT" );
         }
     }
-    
 }
 
-// UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE --- UPDATE
 
 
-
-
-
-
-
-
-
-
-
-
-// DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW
+// DRAW 
 
 void Debugger::draw( sf::RenderWindow& window ) {
     
@@ -336,52 +349,53 @@ void Debugger::draw( sf::RenderWindow& window ) {
 
     window.draw( *bodyText );
     window.draw( *fpsText );
+
     if ( isPakSwapped ) {
         window.draw( *popUpText );
     }
 
-    switch(debugState)
-    {
+    switch(debugState) {
+
         case DebugState::ENUM_START:
         break;
+
         case DebugState::INPUT_TEST:
+
             window.draw ( *circleJoystickEmbed );
             window.draw ( *circleDeadzone );
             window.draw ( *circleJoystick );
         break;
+
         case DebugState::SOUND_TEST:
         break;
+
         case DebugState::TEXTURES_VIEW:
+
             window.draw ( *debugMenuText );
             window.draw ( *debugSprite );
         break;
+
         case DebugState::GAMEDATA_VIEW:
         break;
+
         case DebugState::STAGEDATA_VIEW:
+
             window.draw ( *debugMenuText );
         break;
+
         case DebugState::DIALOGUES_VIEW:
+
             window.draw ( *debugMenuText );
         break;
+
         case DebugState::ENUM_END:
         break;
     }
     
 }
 
-// DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW --- DRAW
 
-
-
-
-
-
-
-
-
-
-
-// UPDATE INPUT STATE --- UPDATE INPUT STATE --- UPDATE INPUT STATE --- UPDATE INPUT STATE --- UPDATE INPUT STATE --- UPDATE INPUT STATE
+// UPDATE INPUT STATE
 
 void Debugger::updateDebugInputState( InputState& inputState, bool isDownNow )
 {
@@ -398,6 +412,7 @@ void Debugger::updateDebugInputState( InputState& inputState, bool isDownNow )
     inputState.released = !inputState.held && inputState.prevHeld;
 }
 
+// UPDATE ALL DEBUG MENU INPUTS
 
 void Debugger::updateDebugInput() {
 
@@ -412,6 +427,7 @@ void Debugger::updateDebugInput() {
     updateDebugInputState( inputNum3, sf::Keyboard::isKeyPressed( sf::Keyboard::Key::Num3 ) );
 }
 
+// CREATE INPUT STRING
 
 std::string Debugger::createInputString ( InputState& inputState )
 {
@@ -421,6 +437,8 @@ std::string Debugger::createInputString ( InputState& inputState )
             + ", Released:" + std::to_string(inputState.released)
             + ", Buffer_Active:" + std::to_string(inputState.bufferActive);
 }
+
+// ENABLE MENU CONTROLS
 
 void Debugger::allowVectorControls( int endVal )
 {
@@ -432,6 +450,8 @@ void Debugger::allowVectorControls( int endVal )
     if ( vecIndex < 0 ) vecIndex = endVal;
     if ( vecIndex > endVal ) vecIndex = 0;
 }
+
+// SELECT PAK STRUCT
 
 void Debugger::selectPakStruct( Pak& pak )
 {
@@ -472,14 +492,7 @@ void Debugger::selectPakStruct( Pak& pak )
 }
 
     
-
-
-
-
-
-
-
-// SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE
+// SET STATE
 
 void Debugger::setState( DebugState debugState )
 {
@@ -489,22 +502,8 @@ void Debugger::setState( DebugState debugState )
     buildString ();
 }
 
-// SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE --- SET STATE
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// BUILD STRING ---  BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING
+// BUILD STRING
 
 void Debugger::buildString()
 {
@@ -565,8 +564,8 @@ void Debugger::buildString()
             }
 
             // build texture string
-            for ( int i = 0; i < texturesNames.size(); i++ )
-            {
+            for ( int i = 0; i < texturesNames.size(); i++ ) {
+
                 //fill bodystring with filenames
                 if (i == vecIndex) bodyString += "\n->" + texturesNames[i];
                 else bodyString += "\n" + texturesNames[i];
@@ -575,7 +574,7 @@ void Debugger::buildString()
 
         break;}
 
-        case DebugState::GAMEDATA_VIEW:{
+        case DebugState::GAMEDATA_VIEW: {
             bodyString += 
                 "\n [firstLaunch] " + std::to_string( gameData.firstLaunch )
                 + "\n [totalHFuel] " + std::to_string( gameData.totalHFuel)
@@ -588,7 +587,7 @@ void Debugger::buildString()
                 ;
         break;}
 
-        case DebugState::STAGEDATA_VIEW:{
+        case DebugState::STAGEDATA_VIEW: {
 
             // SAFETY GUARD
             if ( gameData.stages.empty() ){
@@ -597,8 +596,8 @@ void Debugger::buildString()
             }
 
             //draw body list of stages
-            for ( int i = 0; i < gameData.stages.size(); i++ )
-            {
+            for ( int i = 0; i < gameData.stages.size(); i++ ) {
+
                 //fill bodystring with filenames
                 if (i == vecIndex) bodyString += "\n -> " + gameData.stages[i].name;
                 else bodyString += "\n" + gameData.stages[i].name;
@@ -614,10 +613,10 @@ void Debugger::buildString()
                 + "\n[ Best Checkpoint Times ]  "; 
                 
             //loop thru best checkpt times
-            if ( stage.bestCheckPointTimes.empty() )
-            {
-                for ( int i = 0; i < stage.bestCheckPointTimes.size(); i++ )
-                {
+            if ( stage.bestCheckPointTimes.empty() ) {
+
+                for ( int i = 0; i < stage.bestCheckPointTimes.size(); i++ ) {
+
                     debugMenuString += "\n\t" + std::to_string( stage.bestCheckPointTimes[ i ] );
                 }
             }
@@ -631,8 +630,8 @@ void Debugger::buildString()
             stageRanksCount = sizeof ( stage.rankTimeRequirements )
                                 / sizeof ( stage.rankTimeRequirements[0] );
 
-            for ( int i = 0; i < stageRanksCount; i++ )
-            {
+            for ( int i = 0; i < stageRanksCount; i++ ) {
+
                 debugMenuString += "\n\tRank " + std::to_string( i )
                                 + " - " + std::to_string( stage.rankTimeRequirements[i] );
             }
@@ -644,13 +643,14 @@ void Debugger::buildString()
 
             // SAFETY GUARD
             if ( dialoguesNames.empty() ) {
+
                 bodyString += "\nNo Dialogues Data.";
                 break;
             }
             
             //draw body list of stages
-            for ( int i = 0; i < dialoguesNames.size(); i++ )
-            {
+            for ( int i = 0; i < dialoguesNames.size(); i++ ) {
+
                 //fill bodystring with filenames
                 if (i == vecIndex) bodyString += "\n -> " + dialoguesNames[i];
                 else bodyString += "\n" + dialoguesNames[i];
@@ -658,18 +658,29 @@ void Debugger::buildString()
 
             //loop thru entry lines, add to string
             debugMenuString = "";
-            for ( int i = 0; i < dialogueEntry.size(); i++ )
-            {
+            for ( int i = 0; i < dialogueEntry.size(); i++ ) {
+
                 debugMenuString += "\n" + std::to_string(i) + ". " + dialogueEntry[ i ];
             }
 
         break;}
     }
-    if ( bodyText ) bodyText -> setString( bodyString );
-    if ( debugMenuText ) debugMenuText -> setString ( debugMenuString );
-    std::string* tempStateString = &debugStateNames.find( debugState ) -> second;
-    if (tempStateString) std::cout << "body string updated: " << *tempStateString << std::endl;
-}
 
-// BUILD STRING ---  BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING --- BUILD STRING
+    if ( bodyText ) {
+        
+        bodyText -> setString( bodyString );
+    }
+
+    if ( debugMenuText ) {
+        
+        debugMenuText -> setString ( debugMenuString );
+    }
+
+    std::string* tempStateString = &debugStateNames.find( debugState ) -> second;
+
+    if ( tempStateString ) {
+        
+        std::cout << "body string updated: " << *tempStateString << std::endl;
+    }
+}
 

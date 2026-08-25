@@ -75,7 +75,6 @@ private:
 
     std::vector<std::string> dialogueEntry;
 
-    // INPUT_TEST related
     float joystickEmbedRadius;
     float joystickRadius;
     float deadzoneRadius;
@@ -97,7 +96,6 @@ private:
     std::string bodyString = "";
     std::string debugMenuString = "";
 
-    //keyboard nav
     InputState inputActivate;
     InputState inputNextState;
     InputState inputPrevState;
@@ -117,5 +115,4 @@ private:
     void buildString();
     void selectPakStruct( Pak& pak ); 
     void updateDebugInput();
-    
 };
