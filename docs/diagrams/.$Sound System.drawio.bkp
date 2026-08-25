@@ -1,0 +1,37 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="blOWMhBKxQYnTP2RLco8">
+    <mxGraphModel dx="2117" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-4" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-5" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-8" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="sf::Sound" vertex="1">
+          <mxGeometry height="50" width="130" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="play()" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="pause()" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sound Container" vertex="1">
+          <mxGeometry height="50" width="140" x="-320" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="Array [32] sf::Sound" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sound Properties" vertex="1">
+          <mxGeometry height="50" width="140" y="-270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

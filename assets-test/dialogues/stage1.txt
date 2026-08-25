@@ -1,0 +1,25 @@
+make yourself useful and get us out of here...
+
+shatter thru facility glass
+soaring over metropolis horizon
+a road under construction down below squished between another building
+worker bot closes in on player
+
+Gameplay Divergence:
+
+player flies into bot as it grabs them
+bot charges a wind up circular throw, chucking player onto road
+from there they must stomp on weak point of the bridge to reach
+the lush green fungal caverns to progress
+
+player stomps before being caught
+sending them directly thru the fragile section of the bridge 
+underground into the natural cavern cutting down on time
+	
+player times a spin break right before being caught
+cutting thru the bot and launching out the other end
+providing opportunity to reach the other building
+
+
+	
+

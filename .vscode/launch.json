@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Game",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\game.exe",
+            "cwd": "${workspaceFolder}/build",
+            "console": "integratedTerminal",
+            "preLaunchTask": "C/C++: cl.exe build active file with SFML"
+        }
+    ]
+}

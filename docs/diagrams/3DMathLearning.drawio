@@ -1,0 +1,36 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="LdQv9RRwFrA8EK7vYodO">
+    <mxGraphModel dx="2050" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z4Gm0ydy33qPclfRELbc-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="35" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="z4Gm0ydy33qPclfRELbc-2" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint y="410" as="sourcePoint" />
+            <mxPoint y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z4Gm0ydy33qPclfRELbc-3" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="230.73734406502018" y="200" as="sourcePoint" />
+            <mxPoint x="-220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z4Gm0ydy33qPclfRELbc-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="85" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="z4Gm0ydy33qPclfRELbc-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="P1 ( 4, 8 )" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="z4Gm0ydy33qPclfRELbc-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="P2 ( 9, 3 )" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="135" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

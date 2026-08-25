@@ -1,0 +1,259 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="blOWMhBKxQYnTP2RLco8">
+    <mxGraphModel dx="4707" dy="2417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-4" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-5" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-24" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="sf::Sound" vertex="1">
+          <mxGeometry height="50" width="130" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);" value="play()" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);" value="pause()" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-56" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-57" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-58" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-59" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-60" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-105" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-128" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-129" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-130" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nt9FvNhnW53Y5_jHywNU-8" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nt9FvNhnW53Y5_jHywNU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC6600);" value="Sound Container&amp;nbsp;&lt;div&gt;( pass in: PakData&amp;amp; pakData)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="-425" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-67" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="sf::Sound sound ( init with temp sound buffer from pakData Global Pak )" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);" value="all sound properties" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-25" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Struct SoundID" vertex="1">
+          <mxGeometry height="210" width="140" x="-1010" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-26" parent="Zp_lnSijfMFdsTcB5g2A-25" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Jump" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-27" parent="Zp_lnSijfMFdsTcB5g2A-25" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Roll" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-28" parent="Zp_lnSijfMFdsTcB5g2A-25" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Slide" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-29" parent="Zp_lnSijfMFdsTcB5g2A-25" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Attack" vertex="1">
+          <mxGeometry height="30" width="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-30" parent="Zp_lnSijfMFdsTcB5g2A-25" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Crouch" vertex="1">
+          <mxGeometry height="30" width="140" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PXw0WFwy2Enim7xZzgKE-1" parent="Zp_lnSijfMFdsTcB5g2A-25" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Etc ..." vertex="1">
+          <mxGeometry height="30" width="140" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-64" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-36" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="Sound Container Array [32] soundContainers&amp;nbsp;" vertex="1">
+          <mxGeometry height="180" width="210" x="-680" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-37" parent="Zp_lnSijfMFdsTcB5g2A-36" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#CC6600);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="SoundID -&amp;gt; Sound Container" vertex="1">
+          <mxGeometry height="30" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-46" parent="Zp_lnSijfMFdsTcB5g2A-36" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#CC6600);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="SoundID -&amp;gt; Sound Container" vertex="1">
+          <mxGeometry height="30" width="210" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-47" parent="Zp_lnSijfMFdsTcB5g2A-36" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#CC6600);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="SoundID -&amp;gt; Sound Container" vertex="1">
+          <mxGeometry height="30" width="210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-48" parent="Zp_lnSijfMFdsTcB5g2A-36" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#CC6600);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="SoundID -&amp;gt; Sound Container" vertex="1">
+          <mxGeometry height="30" width="210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-49" parent="Zp_lnSijfMFdsTcB5g2A-36" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#CC6600);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Etc ..." vertex="1">
+          <mxGeometry height="30" width="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="Vec3* position" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="bool isReady" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="SoundProperties* propertiesPtr = nullPtr" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="Vec3* speed" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-61" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-62" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-63" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#1C0066);" value="std::unordered_map&amp;lt;std::string, sf::soundBuffer&amp;gt; soundsMap" vertex="1">
+          <mxGeometry height="50" width="290" x="-470" y="-570" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-72" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="when loading a PAK" vertex="1">
+          <mxGeometry height="90" width="200" x="615" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-80" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-81" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-82" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-83" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-110" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nt9FvNhnW53Y5_jHywNU-2" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nt9FvNhnW53Y5_jHywNU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nt9FvNhnW53Y5_jHywNU-3" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC6600);" value="Audio Manager" vertex="1">
+          <mxGeometry height="50" width="140" x="-1010" y="-285" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="bool isActive" vertex="1">
+          <mxGeometry height="50" width="140" x="-680" y="-425" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-76" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.099;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zp_lnSijfMFdsTcB5g2A-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="std::vector&amp;lt;SoundID&amp;gt; currentSoundIDs" vertex="1">
+          <mxGeometry height="50" width="140" x="-680" y="-355" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="std::unordered_map&amp;lt;std::string, SoundID&amp;gt; stringToSoundIDMap" vertex="1">
+          <mxGeometry height="50" width="250" x="-680" y="-285" as="geometry" />
+        </mxCell>
+        <mxCell id="dByRft6mMxwDdOo2I_qn-3" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="std::unordered_map&amp;lt;SoundID, SoundProperties&amp;gt; soundPropertiesMap" vertex="1">
+          <mxGeometry height="50" width="250" x="-680" y="-215" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC0066);" value="void loadNewSoundData ( std::string name, sf::SoundBuffer soundBuffer )" vertex="1">
+          <mxGeometry height="50" width="430" x="-1082.5" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SoundProperties playerJump&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= { &quot;Player Jump&quot;, 100.0f, 1.0f, 1.0f, 48.0f, 96.0f, 0.0f&amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;SoundProperties playerRoll&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= { &quot;Player Roll&quot;, 100.0f, 1.0f, 1.0f, 48.0f, 96.0f, 0.0f&amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;SoundProperties playerRun = { &quot;Player Run&quot;, 100.0f, 1.0f, 1.0f, 48.0f, 96.0f, 0.0f&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; white-space: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3Dlight-dark(%23FFFFFF%2C%23006600)%3B%22%20value%3D%22std%3A%3Aunordered_map%26amp%3Blt%3BSoundID%2C%20SoundContainer%26amp%3Bgt%3B%20soundContainerMap%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2250%22%20width%3D%22250%22%20x%3D%22-680%22%20y%3D%22-165%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3EsoundPropertsddsdsdds&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;soundPropertiesMap.insert ( { ID::PLAYER_JUMP,&amp;nbsp;&lt;/span&gt;playerJump }&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;soundPropertiesMap.insert ( {&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID::PLAYER_ROLL, &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;playerJump }&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&lt;br&gt;&lt;/span&gt;soundPropertiesMap.insert&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;( { ID::PLAYER_RUN,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;playerJump }&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="550" x="-320" y="-375" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="&lt;span style=&quot;text-align: left;&quot;&gt;sf::SoundBuffer* bufferPtr = nullPtr&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="-150" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" value="&lt;div&gt;SoundID newID = findMapObject ( stringToSoundIDMap, name );&lt;/div&gt;&lt;div&gt;soundPropertiesMap.insert ( { newID, soundBuffer } );&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; white-space: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3Dlight-dark(%23FFFFFF%2C%23006600)%3B%22%20value%3D%22std%3A%3Aunordered_map%26amp%3Blt%3BSoundID%2C%20SoundContainer%26amp%3Bgt%3B%20soundContainerMap%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2250%22%20width%3D%22250%22%20x%3D%22-680%22%20y%3D%22-165%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;( ID::PLAYER_JUMP,&amp;nbsp;&lt;/span&gt;playerJump&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;( ID::PLAYER_ROLL, &lt;/span&gt;playerJump &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;( ID::PLAYER_RUN,&amp;nbsp;&lt;/span&gt;playerJump &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="495" x="-1112.5" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="std::unordered_map&amp;lt;SoundID, sf::SoundBuffer*&amp;gt; soundBufferPtrMap" vertex="1">
+          <mxGeometry height="50" width="250" x="-680" y="-145" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC0066);" value="void playSound2D ( SoundID id )" vertex="1">
+          <mxGeometry height="50" width="430" x="-1852.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;for ( SoundContainer&amp;amp; sound :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;soundContainers&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if ( !sound.isReady ) continue;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sound.bufferPtr = findMapObject ( soundBufferMap, id );&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// -&amp;gt; EX: soundBufferJump&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if ( !sound.bufferPtr ) {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;std::cout &amp;lt;&amp;lt; &lt;/span&gt;&quot;SoundBuffer pointer is null.\n&quot;;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;break;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sound.propertiesPtr = findMapObject ( soundPropertiesMap, id );&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// -&amp;gt; EX: playerJumpProperties&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if ( !sound.propertiesPtr ) {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;std::cout &amp;lt;&amp;lt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;SoundProperties pointer is null.\n&quot;;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;break;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;//if reached here, buffer and properties pointers are valid&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sound.applyProperties();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sound.set3DAudioActive( false );&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sound.setDopplerActive( false );&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sound.playSound();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sound.isReady = false;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;break;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="670" x="-1970" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-113" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Struct Sound Properties" vertex="1">
+          <mxGeometry height="240" width="160" x="260" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-114" parent="Zp_lnSijfMFdsTcB5g2A-113" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="std::string name" vertex="1">
+          <mxGeometry height="30" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-115" parent="Zp_lnSijfMFdsTcB5g2A-113" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="volume" vertex="1">
+          <mxGeometry height="30" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-116" parent="Zp_lnSijfMFdsTcB5g2A-113" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="pitch" vertex="1">
+          <mxGeometry height="30" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-117" parent="Zp_lnSijfMFdsTcB5g2A-113" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="dopplerFactor" vertex="1">
+          <mxGeometry height="30" width="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-118" parent="Zp_lnSijfMFdsTcB5g2A-113" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="minDistance" vertex="1">
+          <mxGeometry height="30" width="160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-119" parent="Zp_lnSijfMFdsTcB5g2A-113" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="maxDistance" vertex="1">
+          <mxGeometry height="30" width="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-120" parent="Zp_lnSijfMFdsTcB5g2A-113" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#003366);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="attenuation" vertex="1">
+          <mxGeometry height="30" width="160" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="bool is3D" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="bool isLooping" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp_lnSijfMFdsTcB5g2A-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="bool isDoppler" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dByRft6mMxwDdOo2I_qn-4" edge="1" parent="1" source="Zp_lnSijfMFdsTcB5g2A-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zp_lnSijfMFdsTcB5g2A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XX1LxHqf687srsXIGD6-1" edge="1" parent="1" source="nt9FvNhnW53Y5_jHywNU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="lnyWq9LeohjgTf7yYp51-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nt9FvNhnW53Y5_jHywNU-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="PakData&amp;amp; pakData" vertex="1">
+          <mxGeometry height="50" width="140" x="-680" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="nt9FvNhnW53Y5_jHywNU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC0066);" value="void play ( )" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="nt9FvNhnW53Y5_jHywNU-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" value="if ( !bufferPtr || !soundProperties ) break;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if ( is3D )&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if ( isDoppler )&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;else&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if ( isLooping )&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="360" width="510" x="-380" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="nt9FvNhnW53Y5_jHywNU-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006600);" value="bool isMoving" vertex="1">
+          <mxGeometry height="50" width="140" x="-150" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="lnyWq9LeohjgTf7yYp51-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#1C0066);align=left;" value="Pak global&lt;div&gt;Pak ...&lt;/div&gt;&lt;div&gt;Pak ...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="-470" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="2XX1LxHqf687srsXIGD6-2" edge="1" parent="1" source="lnyWq9LeohjgTf7yYp51-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.108;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="Zp_lnSijfMFdsTcB5g2A-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

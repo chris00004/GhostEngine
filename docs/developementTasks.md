@@ -1,0 +1,12 @@
+- design audio manager
+- develop audio manager
+- design full gameObject class tree structure
+- implement depth sorting script
+- create simple room with edge case gameObject placements + controllable object to test depth sorting
+- design player mechanics and movement
+- develop player controller
+- design level culling system
+- develope level culling system
+- fully think up all levels + gimmicks, set-pieces, geometry structure
+- design all stages
+- develop all stages
