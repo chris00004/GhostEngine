@@ -41,4 +41,8 @@ class InputManager{
         void updateInputState( InputState& inputState, bool isDownNow );
         void resetInputBuffer( InputState& inputState );
         void calculateInputDir( Input& input );
+
+        void updateGamepadInputMap();
+        void updateKeyboardInputMap();
+        void processInputs();
 };
