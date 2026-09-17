@@ -6,7 +6,7 @@
 
 #include <filesystem>
 
-//TO RUN: CTRL+SHIFT+P -> ENTER
+//TO RUN: CTRL+SHIFT+B -> ENTER
 
 // PAK format:
 // [4 bytes] file count
@@ -132,7 +132,9 @@ int main() {
         "../../assets-test/graphics/stamp.jpg",
         "../../assets-test/graphics/cher.jpg",
         "../../assets-test/graphics/wifi.jpg",
-        "../../assets-test/graphics/folder.jpg"
+        "../../assets-test/graphics/folder.jpg",
+        "../../assets-test/graphics/bear-vessel.png",
+        "../../assets-test/graphics/eye-frame.png"
     } );
 
     std::cout << "\nPress enter to close\n";
